@@ -16,7 +16,7 @@ setup binds to `verify`:
 
 ```xml
 <plugin>
-  <groupId>io.github.vikas0686</groupId>
+  <groupId>dev.wogu</groupId>
   <artifactId>wogu-maven-plugin</artifactId>
   <version>0.1.0</version>
   <executions>
@@ -41,7 +41,7 @@ task dependency configuration is needed:
 
 ```kotlin
 plugins {
-  id("io.github.vikas0686.wogu") version "0.1.0"
+  id("dev.wogu") version "0.1.0"
 }
 ```
 

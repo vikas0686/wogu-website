@@ -16,14 +16,14 @@ const plugins = [
     name: "Maven Plugin",
     summary:
       "Published on Maven Central. Bind wogu:validate to the verify phase and it runs on every mvn verify.",
-    coordinates: "io.github.vikas0686:wogu-maven-plugin",
+    coordinates: "dev.wogu:wogu-maven-plugin",
   },
   {
     slug: "gradle",
     name: "Gradle Plugin",
     summary:
       "Registers the woguValidate task and wires it into build once the java plugin is present.",
-    coordinates: "io.github.vikas0686.wogu",
+    coordinates: "dev.wogu",
   },
 ];
 

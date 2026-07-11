@@ -1,5 +1,5 @@
 export const mavenPluginSnippet = `<plugin>
-  <groupId>io.github.vikas0686</groupId>
+  <groupId>dev.wogu</groupId>
   <artifactId>wogu-maven-plugin</artifactId>
   <version>0.1.0</version>
   <executions>
@@ -12,11 +12,11 @@ export const mavenPluginSnippet = `<plugin>
 </plugin>`;
 
 export const gradlePluginSnippet = `plugins {
-  id("io.github.vikas0686.wogu") version "0.1.0"
+  id("dev.wogu") version "0.1.0"
 }`;
 
 export const gradlePluginGroovySnippet = `plugins {
-  id 'io.github.vikas0686.wogu' version '0.1.0'
+  id 'dev.wogu' version '0.1.0'
 }`;
 
 export const cliSnippet = `$ mvn verify
@@ -81,7 +81,7 @@ export const mavenFullExampleSnippet = `<project>
   <build>
     <plugins>
       <plugin>
-        <groupId>io.github.vikas0686</groupId>
+        <groupId>dev.wogu</groupId>
         <artifactId>wogu-maven-plugin</artifactId>
         <version>0.1.0</version>
         <executions>
@@ -97,7 +97,7 @@ export const mavenFullExampleSnippet = `<project>
 </project>`;
 
 export const mavenBoundPhaseSnippet = `<plugin>
-  <groupId>io.github.vikas0686</groupId>
+  <groupId>dev.wogu</groupId>
   <artifactId>wogu-maven-plugin</artifactId>
   <version>0.1.0</version>
   <executions>
@@ -112,7 +112,7 @@ export const mavenBoundPhaseSnippet = `<plugin>
 
 export const gradleFullExampleSnippet = `plugins {
   java
-  id("io.github.vikas0686.wogu") version "0.1.0"
+  id("dev.wogu") version "0.1.0"
 }
 
 repositories {

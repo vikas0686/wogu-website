@@ -34,7 +34,7 @@ export default function MavenPluginPage() {
         Maven Plugin
       </h1>
       <p className="mt-3 text-muted-foreground">
-        Published on Maven Central under <InlineCode>io.github.vikas0686</InlineCode>. No
+        Published on Maven Central under <InlineCode>dev.wogu</InlineCode>. No
         repository configuration is needed — it resolves straight from Central.
       </p>
 

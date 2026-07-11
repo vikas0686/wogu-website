@@ -11,8 +11,8 @@ export const siteConfig = {
   githubCodeOfConduct: "https://github.com/vikas0686/wogu/blob/main/CODE_OF_CONDUCT.md",
   githubSecurity: "https://github.com/vikas0686/wogu/security/policy",
   githubLicense: "https://github.com/vikas0686/wogu/blob/main/LICENSE",
-  mavenCentral: "https://search.maven.org/artifact/io.github.vikas0686/wogu-maven-plugin",
-  gradlePluginPortal: "https://plugins.gradle.org/plugin/io.github.vikas0686.wogu",
+  mavenCentral: "https://search.maven.org/artifact/dev.wogu/wogu-maven-plugin",
+  gradlePluginPortal: "https://plugins.gradle.org/plugin/dev.wogu",
   twitterHandle: "@wogudev",
 } as const;
 
